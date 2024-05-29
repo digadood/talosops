@@ -30,8 +30,8 @@ spec:
         containers:
           app:
             image:
-              repository: mrcas/kapowarr
-              tag: v1.0.0-beta-4
+              repository: mrcas/kapowarr-alpha
+              tag: latest
             env:
               TZ: ${TIMEZONE}
             resources:
